@@ -234,3 +234,24 @@ only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
   /* Styles */
 }
+
+li.L4,li.L9{list-style-type: none;}
+ol{margin-left: 0;}
+
+.prettyprint li.selected { background-color: #007; color: #fff !important; }
+.prettyprint li.selected * { color: #fff !important; }
+
+#editor {
+  position: absolute;
+  top: 4px;
+  left: 2%;
+  width: 93%;
+  padding: 3px;
+  background-color: #ddd;
+  padding-left: 2%;
+}
+
+#editor textarea {
+  width: 95%;
+  height: 10em;
+}

@@ -13,6 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="js/libs/google-code-prettify/prettify.css?v=1">
   <link rel="stylesheet" href="css/style.css?v=1">
 
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
@@ -22,6 +23,17 @@
 </head>
 
 <body>
+
+  <div id="editor" class="hidden">
+    <form name="edit">
+      <textarea></textarea>
+
+      <div>
+        <input type="submit" value="Save" />
+        <input type="button" value="Cancel" class="cancel" />
+      </div>
+    </form>
+  </div>
 
   <div id="container">
     <header>
@@ -47,6 +59,7 @@
 
   <script src="js/libs/underscore-min.js"></script>
   <script src="js/libs/backbone-min.js"></script>
+  <script src="js/libs/google-code-prettify/prettify.js"></script>
   <script src="js/app.js"></script>
 
 </body>
