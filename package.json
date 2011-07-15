@@ -1,0 +1,7 @@
+{
+  "name": "mobile-code-editor",
+  "version": "0.0.1",
+  "dependencies": {
+    "connect": "1.6.0"
+  }
+}
